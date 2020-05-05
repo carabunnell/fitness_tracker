@@ -18,9 +18,9 @@ app.use(express.urlencoded({
 app.use(express.json());
 app.use(express.static("public"));
 
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populatedb", {
-//     useNewUrlParser: true
-// });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user1:password1@ds159100.mlab.com:59100/heroku_ccw6r0wd", {
+    useNewUrlParser: true
+});
 
 //requireing routes
 require("./routes/html-routes.js")(app);
