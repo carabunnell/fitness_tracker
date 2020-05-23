@@ -20,10 +20,14 @@ app.use(express.urlencoded({
 app.use(express.json());
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker", {
-    useNewUrlParser: true
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker", {
+//     useNewUrlParser: true
+// });
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/fitnesstracker';
+mongoose.connect(MONGODB_URI, {
+  useNewUrlParser: true,
+  useFindAndModify: false,
 });
-
 
 //requireing routes
 app.use(require("./routes/html-routes.js"));

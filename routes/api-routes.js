@@ -22,6 +22,11 @@ const Workout = require("../models/Exercise");
 //             res.json(err);
 //         });
 // });
+//app.get("api/workouts", function(req, res) {
+//     Workout.find({})
+//     .sort({ day: 1 })
+//     .then((data) => )
+// })
 router.get("/api/workouts", function (req, res) {
     Workout.find({})
         .sort({ day: 1 })
@@ -32,6 +37,8 @@ router.get("/api/workouts", function (req, res) {
         res.status(400).json(err);
         });
     });
+
+
     
     
 
