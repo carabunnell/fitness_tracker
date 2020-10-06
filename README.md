@@ -1,5 +1,7 @@
 # Fitness Tracker
 
+Click here for the live app: https://agile-forest-94627.herokuapp.com/?id=5f7c098675ee770017f2ed07
+
 ## Description
 
 The Fitness Tracker 3000 is an application that can be used to create new workouts, continue existing workouts, and track the progress of each.
@@ -8,17 +10,7 @@ The Fitness Tracker 3000 is an application that can be used to create new workou
 
 * As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
-## Table of Contents
-
-Title
-Description
-User Story
-Table of Contents
-Installation
-Usage
-Contributing
-
-## Installation
+## Technologies
 
 This app uses node.js and mongo.
 
