@@ -23,10 +23,6 @@ _____________________
 ![Screenshot](/public/images/dashboard.jpg "Dashboard")
 _______________________
 
-## Technologies
-
-This app uses node.js and mongo.
-
 ## Usage
 
 A consumer will reach their fitness goals quicker when they track their workout progress.
@@ -40,6 +36,10 @@ The user can:
   * Add new exercises to a new workout plan.
 
   * View multiple the combined weight of multiple exercises on the `stats` page.
+
+## Technologies
+
+This app uses node.js and mongo.
 
 ## Contributing
 
