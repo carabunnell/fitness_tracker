@@ -12,14 +12,14 @@ The Fitness Tracker 3000 is an application that can be used to create new workou
 
 ## App Preview
 
-#### Welcome Page
+#### Welcome Page:
 _________________
 ![Screenshot](/public/images/home.jpg "Home page")
 ___________________
-#### Create Workout 
+#### Create Workout: 
 ![Screenshot](/public/images/oldworkout.jpg "Enter Page")
 _____________________
-#### Workout Dashboard
+#### Workout Dashboard:
 ![Screenshot](/public/images/dashboard.jpg "Dashboard")
 _______________________
 
